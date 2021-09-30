@@ -1,0 +1,44 @@
+/** 
+-Import Google Fonts and Define font variables
+-Define color varibalbes
+-Reset CSS properties(margin, padding)
+*/
+
+// Google Font
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,500;0,600;1,600&display=swap");
+
+// Font variable
+$barlow: "Barlow Semi Condensed", sans-serif;
+
+// Colors
+:root {
+  --color-violete: hsl(263, 55%, 52%);
+  --color-grayish-blue: hsl(217, 19%, 35%);
+  --color-blackish-blue: hsl(219, 29%, 14%);
+  --color-white: hsl(0, 0%, 100%);
+
+  --color-light-gray: hsl(0, 0%, 81%);
+  --color-light-blue: hsl(210, 46%, 95%);
+}
+
+// Resetting
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $barlow;
+  font-size: 1.3rem;
+}
