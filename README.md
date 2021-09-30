@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution](https://github.com/ttakeyaya/testimonials-grid-section)
 - Live Site URL: [Live Site](https://ttakeyaya.github.io/testimonials-grid-section/)
 
 ## My process
